@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{font-family: 'Inter', sans-serif !important; font-weight: 400 !important; background-color: #000 !important;}
+.wrapper{ width:100%;}
+img{max-width: 100%;}
+.img-fluid{width: 100% !important;}
+ul{list-style: none;padding: 0;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.navbar-menu {background-color: #14110f !important;}
+.navbar-menu svg.svg-inline--fa.fa-bars.fa-w-14 {color: #fff;}
+.navbar-menu button.navbar-toggler:focus {outline: none !important;}
+.navbar-menu {padding: 20px !important;}
+.list-menu li a {color: #fff !important;font-size: 17px;font-weight: 700; transition: 0.5s;}
+.list-menu li a:hover{color: #fc6b00 !important;}
+.list-menu li {padding-left: 30px;}
+.list-menu .active a {color: #fc6b00 !important;}
+.btn-header-login button {font-size: 17px;font-weight: 600;border: none !important;box-shadow: none !important;margin-right: 15px;}
+.btn-sign-in{background-color: rgb(243, 244, 246, 0.2) !important;}
+.btn-sign-up {background-color: #fc6b00 !important;}
+.desc-home {padding: 100px 0;}
+.content-desc h1 {font-weight: 900;}
+.content-desc h1:first-child {font-size: 45px; color: #e5e7eb;}
+.class-color {font-size: 50px;color: #fc6b00;}
+.content-desc p {color: #bfbfbf; font-size: 16px; max-width: 80%;}
+.link-desc-home {margin-top: 32px;}
+.link-desc-home a {font-size: 17px; font-weight: 600; background: #fc6b00;border: solid 1px #fc6b00;border-radius: 10px;padding: 10px;color: #fff;text-decoration: none;transition: 0.5s;}
+.link-desc-home a:hover {color: #fff !important;text-decoration: none !important;}
+.form-login {background: rgb(40 37 35 / 70%);padding: 25px;border-radius: 15px; color: #e5e7eb;}
+.title-form-login {padding: 20px;}
+.title-form-login h3 {font-weight: 600; font-size: 28px;}
+.content-login input {background: none !important;border: solid 1px #fff; color: #e5e7eb !important; font-size: 15px;}
+.content-login input::placeholder {color: #e5e7eb !important;}
+.content-login input:focus{border-color: #fc6b00 !important;}
+.content-login p {font-size: 12px;font-weight: 600;}
+.content-login a {color: #fc6b00 !important;text-decoration: none !important;}
+.submit-sign-up button {width: 100%;background-color: #e5e7eb !important;font-size: 16px;font-weight: 600;color: #14110f !important;border: solid 1px #e5e7eb  !important; transition: 0.5s;}
+.submit-sign-up button:hover{border: solid 1px #fc6b00 !important; background-color: #fc6b00 !important; color: #fff !important;}
+.submit-sign-up button:focus{box-shadow: none !important;}
+.paid .container .row {background-color: rgb(28 28 28); align-items: center;}
+.paid .container .row .col-md-5 {background: #fc6b00;position: relative;padding: 19px;}
+.content-paid h3 {font-size: 25px;font-weight: 700;color: #e5e7eb;}
+.content-paid p {font-size: 16px;color: #e5e7eb;}
+.content-logo img {min-width: 30px;max-width: 100px;}
+.content-logo {padding: 15px;border-radius: 7px;}
+.logo-paid-paypal{background: linear-gradient(0deg,rgba(136,111,190,.2),rgba(136,111,190,.2)),linear-gradient(120.36deg,#122c88 26.58%,#00d1ff 106.8%);}
+.logo-paid-bitcoin {background: linear-gradient(103.75deg,#ff820e 9.03%,#e98c00 115.6%);}
+.logo-paid-apple {background: linear-gradient(90deg,#69aeed -5.31%,#b592e1 28.9%,#ed8dca 56.02%,#ffaaa5 84.42%,#ffbcb7 118.63%);}
+.earing-money {padding: 100px 0;}
+.desc-money h3 {font-size: 35px;font-weight: 700;color: #e5e7eb;}
+.desc-money p {font-size: 17px;color: #e5e7eb;}
+.desc-money {margin-bottom: 80px;}
+.content-money {background: rgb(28, 28, 28);border-radius: 8px;padding: 20px;}
+.content-money h4 {font-size: 30px;font-weight: 900;color: #fc6b00;}
+.content-money p {font-size: 16px;color: #e5e7eb;margin-bottom: 0;}
+.btn-money {margin-top: 10px;text-align: center;}
+.btn-money a {font-size: 16px;font-weight: 600;background: #fc6b00;border: solid 1px #fc6b00;border-radius: 10px;padding: 10px;color: #fff;text-decoration: none;display: inline-block;
+width: 100%;}
+.btn-money a:hover{text-decoration: none !important; color: #fff !important;}
+.earn-coin {color: #01a930 !important;}
+.btn-coin {background: #01a930 !important;border: solid 1px #01a930 !important;}
+.get-paid{color: #5182ff !important;}
+.btn-paid{background: #5182ff !important; border: solid 1px #5182ff !important;}
+.number {padding: 50px 0;}
+.content-number {background: rgb(28 28 28 / 80%);border-radius: 8px;padding: 10px;}
+.content-number p {font-size: 16px;color: #fff;}
+.content-number h4 {font-size: 20px;font-weight: 900;color: #fff;}
+.faq {padding: 100px 0;}
+.title-accordionFaq {background: #1c1c1c !important;}
+.title-accordionFaq h2 button {color: #e5e7eb !important;text-decoration: none !important;font-weight: 500;}
+.title-accordionFaq h2 button:focus{box-shadow: none !important;}
+.collapseFaq {background: #1c1c1c;}
+.body-faq {padding: 15px 33px !important;}
+.body-faq p {color: #e5e7eb;font-size: 15px;font-weight: 500;}
+.time-faq span {font-size: 12px;font-weight: 500;color: #e5e7eb;}
+.card.card-faq {margin-bottom: 20px; border: none !important;}
+.bloc-footer {background: rgb(28 28 28 / 80%);padding: 50px;}
+.logo-footer img {max-width: 100px;}
+.title-footer {font-size: 17px;font-weight: 700;color: #e5e7eb; margin-bottom: 20px;}
+.copyright {background: rgb(28 28 28 / 80%);padding: 20px;}
+.copyright p {margin: 0;color: #e5e7eb;font-size: 17px;}
+.link-footer ul li {display: inline-block;padding-right: 25px;}
+.link-footer ul li a {color: #fff;background: #fc6b00;border-radius: 50%;display: inline-block;width: 30px;height: 30px;text-align: center;padding: 4px; transition: 0.5s;
+border: solid 1px #fc6b00;}
+.link-footer ul li a:hover{background: #fff; border: solid 1px #fff; color: #fc6b00;}
+.menu-footer ul li a {color: #e5e7eb;font-size: 15px;}
+.menu-footer ul li {margin-bottom: 15px;}
