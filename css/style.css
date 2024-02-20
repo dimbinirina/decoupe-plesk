@@ -168,3 +168,26 @@ border: solid 1px #fc6b00;}
 .list-gift-card{background: #fff;}
 .content-alert {background: rgba(147,197,253,.2) !important;border: none !important;}
 .content-alert h1 {font-size: 15px;color: rgb(147 197 253);margin-bottom: 0;}
+.content-weeklyLeaderboard .row {align-items: flex-end;}
+.weeklyLeaderboard {padding: 50px 0;}
+.content-weeklyLeaderboard {background: rgba(40,37,35, .4);padding: 35px 150px;border-radius: 8px;}
+.title-weeklyLeaderboard h2 {font-weight: 700;font-size: 28px;color: #fff; margin-bottom: 25px;}
+.list-leaderboard {background: rgb(42 40 39);padding: 15px;border-radius: 8px;}
+.position-leaderboard h4 {font-weight: 900;font-size: 3rem;color: rgb(68 68 68);}
+.content-leaderboard img {max-width: 80px;}
+.content-leaderboard h5 {font-size: 19px;font-weight: 700;color: #fff;margin-top: 20px;}
+.content-leaderboard span {color: #fff;font-size: 12px;}
+.color-earned{color: #fc6b00 !important; margin-right: 7px;}
+.first-leaderboard h5 {margin-top: 150px;}
+.first-leaderboard img {max-width: 100px;}
+.second-leaderboard h5{margin-top: 95px;}
+.first-leaderboard img {max-width: 90px;}
+.total-earn-today {padding: 20px 0;}
+.today-earn {background: rgba(40,37,35, .4);border-radius: 8px;padding: 15px 0;}
+.today-earn h3 {display: inline-block;margin: 0;font-size: 17px;color: #fff;}
+.today-earn span {color: #fc6b00;font-size: 17px;}
+.reset-in {padding: 20px 0;}
+.content-reset-in h4 {color: #fc6b00;font-size: 20px;font-weight: 700;}
+.content-reset-in {color: #fff;font-size: 15px;}
+.rank-user-table {color: #e5e7eb !important;}
+.recap-user {padding: 50px 0;}

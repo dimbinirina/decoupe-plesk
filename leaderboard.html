@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/solid.min.css" />
     <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/regular.min.css" />
     <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/light.min.css" />
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--<link rel="shortcut icon" href="favicon.ico"/>-->
 </head>
 <header class="header sticky-top" id="header">
     <nav class="navbar navbar-expand-lg navbar-light navbar-menu">
@@ -56,76 +56,108 @@
         </div>
     </nav>
 </header>
-<section class="cashout">
+<section class="weeklyLeaderboard">
     <div class="container">
-        <div class="content-cashout">
-            <h2>Cashout</h2>
-            <p>
-                Use coins earned on gaintplay to withdraw real money from following withdraw options.
-            </p>
-        </div>
-    </div>
-</section>
-<section class="cash-crypto">
-    <div class="container">
-        <div class="title-cash-crypto">
-            <h3>Cash & Crypto</h3>
-        </div>
-        <div class="content-cash-crypto">
+        <div class="content-weeklyLeaderboard">
+            <div class="title-weeklyLeaderboard text-center">
+                <h2>Weekly Leaderboard</h2>
+            </div>
             <div class="row">
-                <div class="col-md-3">
-                    <button class="list-cash-crypto relative btn-link">
-                        <img src="images/litecoin.svg" alt="litecoin" class="img-fluid">
-                        <span class="absolute flash">⚡</span>
-                    </button>
+                <div class="col-md-4">
+                    <div class="list-leaderboard relative">
+                        <div class="position-leaderboard absolute">
+                            <h4>#3</h4>
+                        </div>
+                        <div class="content-leaderboard text-center">
+                            <img src="images/11.png" alt="" class="img-fluid">
+                            <h5>Nurhak</h5>
+                            <span class="color-earned">205705 earned</span>
+                            <span>7500</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <button class="list-cash-crypto relative btn-link cash-paypal">
-                        <img src="images/paypal.svg" alt="paypal" class="img-fluid">
-                        <span class="absolute flash">⚡</span>
-                    </button>
+                <div class="col-md-4">
+                    <div class="list-leaderboard first-leaderboard relative">
+                        <div class="position-leaderboard absolute">
+                            <h4>#1</h4>
+                        </div>
+                        <div class="content-leaderboard text-center">
+                            <img src="images/2.png" alt="" class="img-fluid">
+                            <h5>Noggin</h5>
+                            <span class="color-earned">323160 earned</span>
+                            <span>15000</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <button class="list-cash-crypto relative btn-link cash-bitcoin">
-                        <img src="images/bitcoin.svg" alt="bitcoin" class="img-fluid">
-                        <span class="absolute flash">⚡</span>
-                    </button>
+                <div class="col-md-4">
+                    <div class="list-leaderboard second-leaderboard relative">
+                        <div class="position-leaderboard absolute">
+                            <h4>#2</h4>
+                        </div>
+                        <div class="content-leaderboard text-center">
+                            <img src="images/3.png" alt="" class="img-fluid">
+                            <h5>İdris Bars</h5>
+                            <span class="color-earned">285105 earned</span>
+                            <span>12000</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="gift-card">
+<section class="total-earn-today">
     <div class="container">
-        <div class="title-cash-crypto">
-            <h3>Gift Card</h3>
-        </div>
-        <div class="content-cash-crypto">
-            <div class="row">
-                <div class="col-md-3">
-                    <button class="list-cash-crypto relative btn-link list-gift-card">
-                        <img src="images/visa.svg" alt="visa" class="img-fluid">
-                        <span class="absolute flash">⚡</span>
-                    </button>
-                </div>
-                <div class="col-md-3">
-                    <button class="list-cash-crypto relative btn-link list-gift-card">
-                        <img src="images/netflix.svg" alt="netflix" class="img-fluid">
-                    </button>
-                </div>
-            </div>
+        <div class="today-earn text-center">
+            <h3>You earned</h3>
+            <span>0 Coins</span>
+            <h3>today</h3>
         </div>
     </div>
 </section>
-<section class="alert">
+<section class="reset-in">
     <div class="container">
-        <div class="alert alert-primary content-alert" role="alert">
-            <h1>
-                ""Quick Note : The merchants represented are not sponsors of the rewards or otherwise affiliated with Gaintplay. 
-                The logos and other identifying marks attached aretrademarks of and owned by each represented company and/or its affiliates. 
-                Please visit each company's website for additional terms and conditions.""
-            </h1>
-          </div>
+        <div class="content-reset-in text-center">
+            <h4>Reset In</h4>
+            <span id="days"></span>d
+            <span id="hours"></span>h
+            <span id="minutes"></span>m
+            <span id="seconds"></span>s
+        </div>
+    </div>
+</section>
+<section class="recap-user">
+    <div class="container">
+        <table class="table rank-user-table text-center">
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Username</th>
+                <th scope="col">Coins Earned</th>
+                <th scope="col">Prize</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Noggin</td>
+                <td>323160</td>
+                <td>15000 Coins</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>İdris Bars</td>
+                <td>285105</td>
+                <td>12000 Coins</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Nurhak</td>
+                <td>205705</td>
+                <td>7500 Coins</td>
+              </tr>
+            </tbody>
+          </table>
     </div>
 </section>
 <footer class="footer">
