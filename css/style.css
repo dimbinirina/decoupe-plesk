@@ -191,3 +191,10 @@ border: solid 1px #fc6b00;}
 .content-reset-in {color: #fff;font-size: 15px;}
 .rank-user-table {color: #e5e7eb !important;}
 .recap-user {padding: 50px 0;}
+.term-of-service {padding: 80px 0;}
+.title-term-service h2 {color: #e5e7eb;font-size: 35px;font-weight: 700;}
+.title-term-service p {color: #c1c1c1;font-size: 17px;}
+.para-title {margin-top: 80px;}
+.term-all {margin-top: 35px;}
+.term-all h3 {color: #e5e7eb;font-size: 25px;font-weight: 700;}
+.term-all p {color: #c1c1c1;font-size: 17px;}
