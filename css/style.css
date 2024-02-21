@@ -198,3 +198,13 @@ border: solid 1px #fc6b00;}
 .term-all {margin-top: 35px;}
 .term-all h3 {color: #e5e7eb;font-size: 25px;font-weight: 700;}
 .term-all p {color: #c1c1c1;font-size: 17px;}
+.referrals-bloc {padding: 60px 0;}
+.content-recap-referrals {background: rgb(25 22 20);padding: 35px 20px;border-radius: 8px;}
+.content-recap-referrals h4 {color: #fff;font-size: 17px;margin: 0;}
+.rank-with-icon {display: flex;align-items: center;float: right;margin-top: -30px;}
+.rank-with-icon img {max-width: 40px;}
+.rank-with-icon h5 {margin-bottom: 0;margin-left: 10px;font-size: 18px;color: #fff;}
+.user-referred {background: rgb(25 22 20);border-radius: 8px;padding: 16px 15px;}
+.user-referred h5 {color: #bfbfbf;font-size: 17px;font-weight: 700;}
+.user-referred span, .user-referred svg {color: #fff;font-size: 20px;}
+.content-leaderboard span svg {color: rgb(234 179 8);}
