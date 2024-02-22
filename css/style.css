@@ -239,3 +239,14 @@ border: solid 1px #fc6b00;}
 .brown{color: #92400e !important;}
 .bloc-medaille .row {align-items: flex-end;}
 .marge {margin-top: 125px;}
+.tab-referrals {margin-top: 35px;}
+.tab-referrals .table {color: #fff;text-align: center;}
+.tab-referrals .table th{width: 20%;}
+.reward {padding: 50px 0;}
+.list-dayReward {background: rgb(28 28 28);padding: 10px;border-radius: 10px;}
+.dayIcon {color: #e5e7eb;display: flex;justify-content: space-between;align-items: center;}
+.dayIcon h3 {font-size: 20px; margin: 0; font-weight: 700;}
+.rewardCoin {color: #e5e7eb;margin-top: 20px; display: flex; justify-content: space-between; align-items: center;}
+.rewardCoin h4, .rewardCoin p {margin: 0;font-size: 12px;}
+.day-reward .col {margin-bottom: 50px;}
+.day-reward {padding-top: 50px;}
