@@ -208,3 +208,34 @@ border: solid 1px #fc6b00;}
 .user-referred h5 {color: #bfbfbf;font-size: 17px;font-weight: 700;}
 .user-referred span, .user-referred svg {color: #fff;font-size: 20px;}
 .content-leaderboard span svg {color: rgb(234 179 8);}
+.refer-link {background: rgb(25 22 20);padding: 15px 20px;border-radius: 8px;margin-top: 20px;}
+.refer-link h4 {color: #bfbfbf;font-size: 17px;font-weight: 700;margin-bottom: 20px;}
+.form-refer-link input {background: #2c2c2c !important;border: none !important;border-radius: 10px;}
+.form-refer-link input::placeholder{color: #bfbfbf; font-size: 15px;}
+.form-refer-link input:focus{box-shadow: none !important;}
+.tab-recap {padding: 10px 0;}
+.menu-tab {background: rgba(32,32,32,.8);padding: 10px;align-items: center;justify-content: center;border-radius: 8px;}
+.menu-tab li button {background-color: initial !important;border: none !important;color: #fff !important;font-size: 17px;font-weight: 600; padding: 5px 11px;}
+.menu-tab li button:focus{outline: none !important;}
+.menu-tab li button.active {background: #fc6b00 !important;}
+.list-tiers {background: rgb(25 22 20);padding: 16px;border-radius: 10px; min-height: 230px;}
+.upNext h5 {color: #bfbfbf;font-weight: 700;font-size: 18px;display: inline-block; padding-right: 5px;}
+.upNext svg {color: #bfbfbf;font-size: 18px;}
+.upNext p {float: right;color: #bfbfbf;font-weight: 700;font-size: 18px;}
+.medal {margin-top: 10px;}
+.medal h5{color: #bfbfbf;font-weight: 700;font-size: 18px;}
+.requierment {margin-top: 25px}
+.requierment h5 {color: #fc6b00;font-size: 14px;font-weight: 400;}
+.requierment h6 {color: #8c8c8c;font-size: 14px;font-weight: 400; margin: 0;}
+.min-referral {display: flex;justify-content: space-between;align-items: center;}
+.min-referral p {color: #bfbfbf;font-size: 15px; margin: 0;}
+.pills-tiers .col-md-4{margin-top: 20px;}
+.tab-recap .container {margin-bottom: 50px;}
+.bloc-medaille {background: rgba(32,32,32,.8);padding: 30px; border-radius: 10px; text-align: center;}
+.money-medaille {bottom: -14px;transform: translate(-50%, -50%);left: 50%;}
+.money-medaille p {color: #bfbfbf;font-size: 17px;font-weight: 700;}
+.content-medaille svg {max-width: 200px;}
+.yellow{color: #fbbf24 !important;}
+.brown{color: #92400e !important;}
+.bloc-medaille .row {align-items: flex-end;}
+.marge {margin-top: 125px;}
