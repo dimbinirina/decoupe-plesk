@@ -149,6 +149,7 @@ border: solid 1px #fc6b00;}
 .link-footer ul li a:hover{background: #fff; border: solid 1px #fff; color: #fc6b00;}
 .menu-footer ul li a {color: #e5e7eb;font-size: 15px;}
 .menu-footer ul li {margin-bottom: 15px;}
+<<<<<<< HEAD
 
 .latest{
     font-size: 25px;
@@ -418,3 +419,64 @@ border: solid 1px #fc6b00;}
 }
 
 
+=======
+.cashout {padding: 80px 0;}
+.content-cashout h2 {color: #e5e7eb;font-size: 35px;font-weight: 700;}
+.content-cashout p {color: #bfbfbf;font-size: 17px;}
+.title-cash-crypto {margin-bottom: 25px;}
+.title-cash-crypto h3 {font-size: 17px;color: #e5e7eb;}
+.list-cash-crypto{background: linear-gradient(to right bottom, rgb(161, 164, 201), rgb(126, 128, 154));box-shadow: rgba(0, 0, 0, 0.07) 10px 5px 7px, rgba(255, 255, 255, 0.5) 0px 2px 0px inset;
+    height: 7rem;border-radius: 10px; width: 100%; border: none !important;}
+.list-cash-crypto:focus{outline: none !important;}
+.list-cash-crypto img {max-width: 115px;}
+.flash {left: 10px;top: 10px;background: rgba(0, 0, 0, 0.4);font-size: 12px;width: 12%;line-height: 20px;border-radius: 5px;}
+.cash-paypal{background: linear-gradient(to right bottom, rgb(0, 113, 227), rgb(0, 91, 227));box-shadow: rgba(0, 0, 0, 0.07) 10px 5px 7px, rgba(255, 255, 255, 0.5) 0px 2px 0px i
+}
+.cash-bitcoin{background: linear-gradient(to right bottom, rgb(255, 179, 0), rgb(255, 153, 0));
+    box-shadow: rgba(0, 0, 0, 0.07) 10px 5px 7px, rgba(255, 255, 255, 0.5) 0px 2px 0px}
+.content-cash-crypto .col-md-3 {margin-bottom: 30px;}
+.gift-card {padding: 50px 0;}
+.list-gift-card{background: #fff;}
+.content-alert {background: rgba(147,197,253,.2) !important;border: none !important;}
+.content-alert h1 {font-size: 15px;color: rgb(147 197 253);margin-bottom: 0;}
+.content-weeklyLeaderboard .row {align-items: flex-end;}
+.weeklyLeaderboard {padding: 50px 0;}
+.content-weeklyLeaderboard {background: rgba(40,37,35, .4);padding: 35px 150px;border-radius: 8px;}
+.title-weeklyLeaderboard h2 {font-weight: 700;font-size: 28px;color: #fff; margin-bottom: 25px;}
+.list-leaderboard {background: rgb(42 40 39);padding: 15px;border-radius: 8px;}
+.position-leaderboard h4 {font-weight: 900;font-size: 3rem;color: rgb(68 68 68);}
+.content-leaderboard img {max-width: 80px;}
+.content-leaderboard h5 {font-size: 19px;font-weight: 700;color: #fff;margin-top: 20px;}
+.content-leaderboard span {color: #fff;font-size: 12px;}
+.color-earned{color: #fc6b00 !important; margin-right: 7px;}
+.first-leaderboard h5 {margin-top: 150px;}
+.first-leaderboard img {max-width: 100px;}
+.second-leaderboard h5{margin-top: 95px;}
+.first-leaderboard img {max-width: 90px;}
+.total-earn-today {padding: 20px 0;}
+.today-earn {background: rgba(40,37,35, .4);border-radius: 8px;padding: 15px 0;}
+.today-earn h3 {display: inline-block;margin: 0;font-size: 17px;color: #fff;}
+.today-earn span {color: #fc6b00;font-size: 17px;}
+.reset-in {padding: 20px 0;}
+.content-reset-in h4 {color: #fc6b00;font-size: 20px;font-weight: 700;}
+.content-reset-in {color: #fff;font-size: 15px;}
+.rank-user-table {color: #e5e7eb !important;}
+.recap-user {padding: 50px 0;}
+.term-of-service {padding: 80px 0;}
+.title-term-service h2 {color: #e5e7eb;font-size: 35px;font-weight: 700;}
+.title-term-service p {color: #c1c1c1;font-size: 17px;}
+.para-title {margin-top: 80px;}
+.term-all {margin-top: 35px;}
+.term-all h3 {color: #e5e7eb;font-size: 25px;font-weight: 700;}
+.term-all p {color: #c1c1c1;font-size: 17px;}
+.referrals-bloc {padding: 60px 0;}
+.content-recap-referrals {background: rgb(25 22 20);padding: 35px 20px;border-radius: 8px;}
+.content-recap-referrals h4 {color: #fff;font-size: 17px;margin: 0;}
+.rank-with-icon {display: flex;align-items: center;float: right;margin-top: -30px;}
+.rank-with-icon img {max-width: 40px;}
+.rank-with-icon h5 {margin-bottom: 0;margin-left: 10px;font-size: 18px;color: #fff;}
+.user-referred {background: rgb(25 22 20);border-radius: 8px;padding: 16px 15px;}
+.user-referred h5 {color: #bfbfbf;font-size: 17px;font-weight: 700;}
+.user-referred span, .user-referred svg {color: #fff;font-size: 20px;}
+.content-leaderboard span svg {color: rgb(234 179 8);}
+>>>>>>> 4ff610403eea3745d376530e7a9d43f72db4c7d5
