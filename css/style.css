@@ -250,3 +250,5 @@ border: solid 1px #fc6b00;}
 .rewardCoin h4, .rewardCoin p {margin: 0;font-size: 12px;}
 .day-reward .col {margin-bottom: 50px;}
 .day-reward {padding-top: 50px;}
+.modal-backdrop{z-index: 1 !important;}
+.modal-backdrop.show {opacity: 0.9 !important;}
