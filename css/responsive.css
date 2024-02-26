@@ -21,10 +21,13 @@
     .position-leaderboard {left: 0;top: 0;}
     .list-leaderboard{margin-bottom: 20px;}
     .first-leaderboard h5, .second-leaderboard h5{margin-top: 0px;}
+    .list-offert{width: 100%; margin-bottom: 20px;}
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
     .content-weeklyLeaderboard{padding: 35px;}
     .position-leaderboard {left: 0;top: 0;}
+    .list-offerwals{padding: 10px;}
+    .content-offerwals img {max-width: 40px;}
 }
 @media screen and (max-width: 767px){
     .recap-referrals .col-md-6, .col-md-3 {margin-bottom: 30px;}
