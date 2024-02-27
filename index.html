@@ -48,8 +48,8 @@
 			  </ul>
 			</div>
 			  <div class="btn-header-login">
-				<button type="button" class="btn btn-primary btn-sign-in" data-toggle="modal" data-target="#id-sign-modal">S'inscrire</button>
-				<button type="button" class="btn btn-primary btn-sign-up">Se connecter</button>
+				<button id="btn-modal-signUp" type="button" class="btn btn-primary btn-sign-in" data-toggle="modal" data-target="#id-sign-modal">S'inscrire</button>
+				<button id="btn-modal-signIn" type="button" class="btn btn-primary btn-sign-up" data-toggle="modal" data-target="#id-sign-modal">Se connecter</button>
 				<div class="modal fade" id="id-sign-modal" tabindex="-1" aria-labelledby="sign-in-modal" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered">
 					  <div class="modal-content modal-content-popup">
@@ -72,7 +72,7 @@
 											Sign In
 										</button>
 										</li>
-									  </ul>
+									</ul>
 									  <div class="tab-content" id="pills-tabContent">
 										<div class="tab-pane fade show active" id="pills-signUp" role="tabpanel" aria-labelledby="pills-signUp-tab">
 											<form class="content-login login-popup">
@@ -97,7 +97,7 @@
 											  </form>
 										</div>
 										<div class="tab-pane fade" id="pills-signIn" role="tabpanel" aria-labelledby="pills-signIn-tab">
-											<form class="content-login login-popup">
+											<form id="login-popup" class="content-login login-popup">
 												<div class="form-group">
 												  <input type="email" class="form-control" id="id-mail-signIn" placeholder="Email">
 												</div>
@@ -106,12 +106,25 @@
 												  </div>
 												  <p>
 													Forgot your password?
-													<a href="#">Click here to reset your password</a> 
+													<a id="target-form-reset" href="javascript:void(0)">Click here to reset your password</a> 
 												  </p>
 												<div class="submit-sign-up">
 													<button type="submit" class="btn btn-primary">Se connecter</button>
 												</div>
-											  </form>
+											 </form>
+											<div class="reset-password">
+												<h2>Gaint Play</h2>
+												<p>Enter your email address associated with your Gaint Play account.</p>
+												<form id="reset-form" class="content-login login-popup">
+													<div class="form-group">
+													  <input type="email" class="form-control" id="id-mail-resetPass" placeholder="Email">
+													</div>
+													<div class="submit-sign-up btn-resetPass text-center">
+														<button type="submit" class="btn btn-primary">Send</button>
+														<a id="returnBack" href="javascript:void(0)">Return back</a>
+													</div>
+												</form>
+											</div>
 										</div>
 									  </div>
 								</div>
@@ -129,8 +142,11 @@
 										<p>Average Time until first cashout</p>
 									</div>
 									<div class="account-txt text-center">
-										<button id="accout-signUp">
+										<button id="accout-signIn">
 											Already have an account? Click here to login
+										</button>
+										<button id="account-signUp">
+											Don't have an account? Create one now!
 										</button>
 									</div>
 								</div>

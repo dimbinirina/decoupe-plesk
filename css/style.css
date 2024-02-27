@@ -308,3 +308,10 @@ height: 7rem;align-items: center;display: flex;}
 .close-modal button:focus{outline: none !important;}
 .close-modal button {opacity: 1 !important;}
 .close-modal span {color: #fff;font-size: 27px;font-weight: 200;}
+#accout-signIn, #account-signUp{display: none;}
+.reset-password{display: none;}
+.reset-password h2 {font-size: 30px;font-weight: 700;color: #dadada; text-align: center;}
+.reset-password p {font-size: 14px;color: #dadada; text-align: center;}
+.btn-resetPass {margin-top: 30px;}
+.btn-resetPass button {width: auto !important;}
+.btn-resetPass a {background: #fc6b00 !important;display: inline-block;color: aliceblue !important;padding: 8px;border-radius: 7px;}
