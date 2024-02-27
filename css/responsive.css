@@ -1,3 +1,6 @@
+@media screen and (min-width: 576px){
+    .modal-dialog{max-width: 800px;margin: 1.75rem auto;}
+}
 @media screen and (max-width: 991px){
     .list-menu li{padding-left: 0;}
     .list-menu {text-align: center;}
