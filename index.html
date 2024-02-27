@@ -53,6 +53,11 @@
 				<div class="modal fade" id="id-sign-modal" tabindex="-1" aria-labelledby="sign-in-modal" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered">
 					  <div class="modal-content modal-content-popup">
+						<div class="close-modal absolute">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							  </button>
+						</div>
 						<div class="row">
 							<div class="col-md-7">
 								<div class="content-form-login">
@@ -92,7 +97,21 @@
 											  </form>
 										</div>
 										<div class="tab-pane fade" id="pills-signIn" role="tabpanel" aria-labelledby="pills-signIn-tab">
-											...
+											<form class="content-login login-popup">
+												<div class="form-group">
+												  <input type="email" class="form-control" id="id-mail-signIn" placeholder="Email">
+												</div>
+												<div class="form-group">
+													<input type="password" class="form-control" id="id-password-signIn" placeholder="Mot de passe">
+												  </div>
+												  <p>
+													Forgot your password?
+													<a href="#">Click here to reset your password</a> 
+												  </p>
+												<div class="submit-sign-up">
+													<button type="submit" class="btn btn-primary">Se connecter</button>
+												</div>
+											  </form>
 										</div>
 									  </div>
 								</div>
@@ -108,6 +127,11 @@
 									<div class="bloc-average text-center">
 										<h4>0h 15m 21s</h4>
 										<p>Average Time until first cashout</p>
+									</div>
+									<div class="account-txt text-center">
+										<button id="accout-signUp">
+											Already have an account? Click here to login
+										</button>
 									</div>
 								</div>
 							</div>

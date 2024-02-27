@@ -294,10 +294,17 @@ height: 7rem;align-items: center;display: flex;}
 .modal-content-popup ul li button.active{background: #e16000 !important;}
 .login-popup p{color: #dadada !important;}
 .content-form-login {padding: 25px 40px;}
-.detail-login-popup {background: #e16000;padding: 25px;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.detail-login-popup {background: #e16000;padding: 25px;border-top-right-radius: 10px; border-bottom-right-radius: 10px; min-height: 450px;}
 .title-login-popup {margin-top: 25px;}
 .title-login-popup h2 {font-size: 30px;font-weight: 700;color: #dadada;}
 .title-login-popup p {font-size: 14px;color: #dadada;}
 .bloc-average {background: rgb(253 130 39);border-radius: 10px;padding: 30px;}
 .bloc-average h4 {color: #dadada;font-size: 17px;font-weight: 700;}
 .bloc-average p {font-size: 14px;color: #dadada;margin: 0;}
+.account-txt { margin-top: 40px;}
+.account-txt button {background: none !important;color: #dadada;font-size: 11px;font-weight: 700; margin-right: 0 !important;}
+.account-txt button:focus{outline: none !important;}
+.close-modal {right: 0;z-index: 99999;top: 15px;}
+.close-modal button:focus{outline: none !important;}
+.close-modal button {opacity: 1 !important;}
+.close-modal span {color: #fff;font-size: 27px;font-weight: 200;}
