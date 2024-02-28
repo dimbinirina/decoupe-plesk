@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Domain default page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation/animations.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation/animations-ie-fix.css" />
+    <!--font awesome 5 Pro-->
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/brands.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/solid.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/regular.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-pro-5.6.1-web/css/light.min.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<header class="header sticky-top" id="header">
+	<nav class="navbar navbar-expand-lg navbar-light navbar-menu">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.svg" alt="logo" class="img-fluid">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="id-menu">
+			  <ul class="navbar-nav mr-auto list-menu">
+				<li class="nav-item">
+				  <a class="nav-link" href="earn.html">Earn</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="cashout.html">Cashout</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="leaderboard.html">Leaderboard</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="referrals.html">Referrals</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="reward.html">Reward</a>
+				</li>
+			  </ul>
+			</div>
+			  <div class="btn-header-login">
+				<button id="btn-modal-signUp" type="button" class="btn btn-primary btn-sign-in" data-toggle="modal" data-target="#id-sign-modal">S'inscrire</button>
+				<button id="btn-modal-signIn" type="button" class="btn btn-primary btn-sign-up" data-toggle="modal" data-target="#id-sign-modal">Se connecter</button>
+				<div class="modal fade" id="id-sign-modal" tabindex="-1" aria-labelledby="sign-in-modal" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+					  <div class="modal-content modal-content-popup">
+						<div class="close-modal absolute">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							  </button>
+						</div>
+						<div class="row">
+							<div class="col-md-7">
+								<div class="content-form-login">
+									<ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+										<li class="nav-item" role="presentation">
+										  <button class="nav-link active" id="pills-signUp-tab" data-toggle="pill" data-target="#pills-signUp" type="button" role="tab" aria-controls="pills-signUp" aria-selected="true">
+											Sign Up
+										</button>
+										</li>
+										<li class="nav-item" role="presentation">
+										  <button class="nav-link" id="pills-signIn-tab" data-toggle="pill" data-target="#pills-signIn" type="button" role="tab" aria-controls="pills-signIn" aria-selected="false">
+											Sign In
+										</button>
+										</li>
+									</ul>
+									  <div class="tab-content" id="pills-tabContent">
+										<div class="tab-pane fade show active" id="pills-signUp" role="tabpanel" aria-labelledby="pills-signUp-tab">
+											<form class="content-login login-popup">
+												<div class="form-group">
+												  <input type="text" class="form-control" id="id-name" aria-describedby="name" placeholder="Nom">
+												</div>
+												<div class="form-group">
+												  <input type="email" class="form-control" id="id-mail" placeholder="Email">
+												</div>
+												<div class="form-group">
+													<input type="password" class="form-control" id="id-password" placeholder="Mot de passe">
+												  </div>
+												  <p>
+													En vous inscrivant, vous acceptez nos 
+													<a href="terms-of-service.html">termes et conditions</a> 
+													 ainsi que notre 
+													 <a href="privacy-policy.html">politique de confidentialité</a>.
+												  </p>
+												<div class="submit-sign-up">
+													<button type="submit" class="btn btn-primary">S'inscrire</button>
+												</div>
+											  </form>
+										</div>
+										<div class="tab-pane fade" id="pills-signIn" role="tabpanel" aria-labelledby="pills-signIn-tab">
+											<form id="login-popup" class="content-login login-popup">
+												<div class="form-group">
+												  <input type="email" class="form-control" id="id-mail-signIn" placeholder="Email">
+												</div>
+												<div class="form-group">
+													<input type="password" class="form-control" id="id-password-signIn" placeholder="Mot de passe">
+												  </div>
+												  <p>
+													Forgot your password?
+													<a id="target-form-reset" href="javascript:void(0)">Click here to reset your password</a> 
+												  </p>
+												<div class="submit-sign-up">
+													<button type="submit" class="btn btn-primary">Se connecter</button>
+												</div>
+											 </form>
+											<div class="reset-password">
+												<h2>Gaint Play</h2>
+												<p>Enter your email address associated with your Gaint Play account.</p>
+												<form id="reset-form" class="content-login login-popup">
+													<div class="form-group">
+													  <input type="email" class="form-control" id="id-mail-resetPass" placeholder="Email">
+													</div>
+													<div class="submit-sign-up btn-resetPass text-center">
+														<button type="submit" class="btn btn-primary">Send</button>
+														<a id="returnBack" href="javascript:void(0)">Return back</a>
+													</div>
+												</form>
+											</div>
+										</div>
+									  </div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="detail-login-popup">
+									<div class="title-login-popup text-center">
+										<h2>Gaint Play</h2>
+										<p>
+											Make money playing games and taking surveys
+										</p>
+									</div>
+									<div class="bloc-average text-center">
+										<h4>0h 15m 21s</h4>
+										<p>Average Time until first cashout</p>
+									</div>
+									<div class="account-txt text-center">
+										<button id="accout-signIn">
+											Already have an account? Click here to login
+										</button>
+										<button id="account-signUp">
+											Don't have an account? Create one now!
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+		</div>
+	  </nav>
+</header>
+<section class="cashout">
+    <div class="container">
+        <div class="content-cashout">
+            <h2>Cashout</h2>
+            <p>
+                Use coins earned on gaintplay to withdraw real money from following withdraw options.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="cash-crypto">
+    <div class="container">
+        <div class="title-cash-crypto">
+            <h3>Cash & Crypto</h3>
+        </div>
+        <div class="content-cash-crypto">
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="list-cash-crypto relative btn-link">
+                        <img src="images/litecoin.svg" alt="litecoin" class="img-fluid">
+                        <span class="absolute flash">⚡</span>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button class="list-cash-crypto relative btn-link cash-paypal">
+                        <img src="images/paypal.svg" alt="paypal" class="img-fluid">
+                        <span class="absolute flash">⚡</span>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button class="list-cash-crypto relative btn-link cash-bitcoin">
+                        <img src="images/bitcoin.svg" alt="bitcoin" class="img-fluid">
+                        <span class="absolute flash">⚡</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gift-card">
+    <div class="container">
+        <div class="title-cash-crypto">
+            <h3>Gift Card</h3>
+        </div>
+        <div class="content-cash-crypto">
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="list-cash-crypto relative btn-link list-gift-card">
+                        <img src="images/visa.svg" alt="visa" class="img-fluid">
+                        <span class="absolute flash">⚡</span>
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <button class="list-cash-crypto relative btn-link list-gift-card">
+                        <img src="images/netflix.svg" alt="netflix" class="img-fluid">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="alert">
+    <div class="container">
+        <div class="alert alert-primary content-alert" role="alert">
+            <h1>
+                "Quick Note : The merchants represented are not sponsors of the rewards or otherwise affiliated with Gaintplay. 
+                The logos and other identifying marks attached aretrademarks of and owned by each represented company and/or its affiliates. 
+                Please visit each company's website for additional terms and conditions."
+            </h1>
+          </div>
+    </div>
+</section>
+<footer class="footer">
+	<div class="bloc-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo-footer">
+						<a href="index.html">
+							<img src="images/logo.svg" alt="logo footer" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="lien-utile menu-footer">
+						<h4 class="title-footer">Lien Utiles</h4>
+						<ul>
+							<li>
+								<a href="terms-of-service.html">Terms of Service</a>
+							</li>
+							<li>
+								<a href="privacy-policy.html">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="contact-footer menu-footer">
+						<h4 class="title-footer">Support</h4>
+						<ul>
+							<li>
+								<a href="mailto:test@mail.com">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="link-footer">
+						<h4 class="title-footer">Réseaux sociaux</h4>
+						<ul>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fab fa-google"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright text-center">
+		<p>Copyright 2023, All rights reserved</p>
+	</div>
+</footer>
+
+<body>
+    <div class="wrapper" id="wrapper">
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popover.js"></script>
+    <script type="text/javascript" src="js/tooltip.js"></script>
+    <script type="text/javascript" src="js/animation/css3-animate-it.js"></script>
+    <script type="text/javascript" src="js/animation/wow.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--fonttawesome 5 pro-->
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/all.min.js"></script>
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/brands.min.js"></script>
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/fontawesome.min.js"></script>
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/light.js"></script>
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/regular.min.js"></script>
+    <script defer src="fonts/fontawesome-pro-5.6.1-web/js/solid.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
