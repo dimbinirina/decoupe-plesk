@@ -35,5 +35,35 @@ $(document).ready(function(){
     }
     }
 
+<<<<<<< HEAD
     
+=======
+    $("#btn-modal-signIn").click(function(){
+        $("#pills-signUp-tab").removeClass("active");
+        $("#pills-signUp").removeClass("show");
+        $("#pills-signUp").removeClass("active");
+        $("#pills-signIn-tab").addClass("active");
+        $("#pills-signIn").addClass("show");
+        $("#pills-signIn").addClass("active");
+    })
+
+    $("#btn-modal-signUp").click(function(){
+        $("#pills-signUp-tab").addClass("active");
+        $("#pills-signUp").addClass("show");
+        $("#pills-signUp").addClass("active");
+        $("#pills-signIn-tab").removeClass("active");
+        $("#pills-signIn").removeClass("show");
+        $("#pills-signIn").removeClass("active");
+    })
+    $("#target-form-reset").click(function(){
+        $("#pills-tab").hide();
+        $(".reset-password").show();
+        $("#login-popup").hide();
+    })
+    $("#returnBack").click(function(){
+        $("#pills-tab").show();
+        $(".reset-password").hide();
+        $("#login-popup").show();
+    })
+>>>>>>> ead897a16f9617c16d509b894927e231ec7a27fc
 });
